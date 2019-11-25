@@ -1,0 +1,253 @@
+
+
+@font-face 
+{
+	font-family: minecraft;
+	src: url(minecraft.ttf);
+}
+
+
+body
+{
+	color: black;
+	background: url("flame3.png") fixed repeat-x bottom, url("icon/twitter_icon.png") fixed no-repeat right, #66cccc; 
+}
+
+h1
+{
+	font-size: 2.5em;
+	background-color: orange;
+	box-shadow: 6px 6px 6px black;
+	border: 3px orange outset;
+	width: 60%;
+}
+
+h2
+{
+	font-size: 1.7em;
+	width: 70%;
+	padding: 5px;
+	margin: 5px;
+	text-decoration: underline;
+}
+
+h3
+{
+	width: 70%;
+	padding: 12px;
+	margin: 20px;
+
+}
+
+*
+{
+	font-family: minecraft,Verdana,Arial,sans-serif;
+}
+
+p
+{
+	font-size: 1.2em;
+	width: 70%;
+	border: solid black 1px;
+	text-align: left;
+	padding: 12px;
+	margin: 20px;
+}
+
+strong
+{
+    color: orange;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+
+mark
+{
+	background-color: black;
+	color: white;
+}
+
+figcaption
+{
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-style: oblique;
+	text-align: left;
+}
+
+.cadre
+{
+	border: 3px orange outset;
+	border-radius: 10px;
+}
+
+.pasdecadre
+{
+	border: none;
+}
+
+
+.lgif
+{
+	float: left;
+	margin-right: 12px;
+}
+
+
+a
+{
+	color: purple;
+	text-decoration: none;
+	font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    font-style: oblique;
+}
+
+a:hover
+{
+	color: orange;
+	background-color: black;
+	font-weight: normal;
+    text-shadow: 1px 1px 1px black;
+    font-style: normal;
+}
+
+a:active
+{
+    background-color: white;
+}
+
+a:visited
+{
+    color: orange;
+}
+
+.liste
+{
+	list-style: square;
+	width: 80%;
+	font-size: 1.3em;
+	padding: 12px;
+	font-style: oblique;
+}
+
+
+.capture
+{
+	border: 3px white solid;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.dessous
+{
+	clear: both;
+	margin-top: 75px;
+}
+
+.pasdeco
+{
+	text-decoration: none;
+}
+
+#conteneur
+{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	margin-top: 12px;
+}
+
+.element
+{
+	font-size: 1.4em;
+	color: orange;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+	padding: 12px;
+	border: 3px white outset;
+	background-color: black;
+	box-shadow: 1px 5px 6px black;
+	margin: auto;
+	width: 20%;
+	flex: 1;
+}
+
+.element:hover
+{
+	background-color: white;
+
+}
+
+.element:nth-child(1) /* On prend le deuxième bloc élément */
+{
+    flex: 1.4;
+}
+
+.menu
+{
+	color: orange;
+	font-style: normal;
+}
+
+.menu:hover
+{
+	color: orange;
+	background-color: white;
+	font-weight: normal;
+    text-shadow: 1px 1px 1px black;
+    font-style: normal;
+}
+
+.forum
+{
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+	margin-top: 40px;
+	flex-wrap: wrap;
+	align-content: space-around;
+	height: 1750px;
+	padding: 20px;
+	width: 80%;
+}
+
+.profil
+{
+	font-size: 1.2em;
+	color: white;
+	font-weight: normal;
+	padding: 12px;
+	border: 1px white solid;
+	background-color: black;
+	box-shadow: 1px 1px 1px black;
+	margin: auto;
+	width: 80%;
+
+}
+
+.profil:nth-child(odd)
+{
+	font-size: 0.9em;
+	width: 11%;
+	font-weight: bold;
+	border: 3px white outset;
+	color: orange;
+	text-align: center;
+}
+
+.displayed
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+em
+{
+	color: white;
+	font-size: 0.6em;
+	font-style: oblique;
+	font-weight: normal;
+}
